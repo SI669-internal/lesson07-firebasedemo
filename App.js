@@ -2,16 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import firebase from 'firebase';
 import '@firebase/firestore';
+import { firebaseConfig } from './Config';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAOFAGqFifSkvI4jRvR8Nq3Dus2JAyvPfQ",
-  authDomain: "lesson07-firebasedemo.firebaseapp.com",
-  databaseURL: "https://lesson07-firebasedemo.firebaseio.com",
-  projectId: "lesson07-firebasedemo",
-  storageBucket: "lesson07-firebasedemo.appspot.com",
-  messagingSenderId: "1085673325819",
-  appId: "1:1085673325819:web:9f32eac784f4117e825c5e"
-};
 
 
 export default class App extends React.Component {
